@@ -2,7 +2,7 @@ import axios from 'axios';
 import qs from 'qs';
 
 const Axios = axios.create({
-    baseURL: 'http://localhost:8080'
+    baseURL: 'http://ec2-13-113-190-100.ap-northeast-1.compute.amazonaws.com:8080/blog'
 });
 
 Axios.defaults.headers.common['Authorization'] = "Bearer " + localStorage.getItem("token");
