@@ -21,6 +21,7 @@ class ArticleItem extends Component{
             <div>
                 {
                     this.props.article.map(function (v,i) {
+                        console.log(v, 'v......')
                         return (
                             <li className="article-item" key={i}>
                                 <div className="media article">
@@ -54,19 +55,19 @@ class ArticleItem extends Component{
                                         <div className="tip">
                                             <p className="gray">
                                                 {
-                                                    v.siteName != null && v.siteName.length > 0 && v.siteName != 'None' ?
+                                                    v.siteName && v.siteName != 'None' ?
                                                         <Link to={"/site/" + v.siteName}><span className="label label-primary">{v.siteName}</span></Link>
                                                     :
                                                     null
                                                 }
                                                 {
-                                                    v.siteName != null && v.siteName.length > 0 && v.siteName != 'None' ?
+                                                    v.siteName && v.siteName != 'None' ?
                                                         <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
                                                         :
                                                         null
                                                 }
                                                 {
-                                                    v.author.length > 0 && v.author != 'None' ?
+                                                    v.author && v.author.length > 0 && v.author != 'None' ?
                                                         <Link to={"/user/" + v.user.username} className="author-media-avatar">
                                                             <img src={v.user.avatar} alt=""/>
                                                         </Link>
@@ -74,13 +75,13 @@ class ArticleItem extends Component{
                                                         null
                                                 }
                                                 {
-                                                    v.author.length > 0  && v.author != 'None' ?
+                                                    v.author && v.author.length > 0  && v.author != 'None' ?
                                                         <Link to={"/user/" + v.user.username}><span className="author-name">{v.user.username}</span></Link>
                                                         :
                                                         null
                                                 }
                                                 {
-                                                    v.author.length > 0  && v.author != 'None' ?
+                                                   v.author && v.author.length > 0  && v.author != 'None' ?
                                                         <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
                                                         :
                                                         null
