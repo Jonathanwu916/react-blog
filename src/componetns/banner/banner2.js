@@ -39,7 +39,7 @@ class Banner2 extends Component{
                             <div className="small-slider-item" key={i}>
                                 {
                                     v.showContent ?
-                                        <Link to={"/article/"+v.articleId} target="_blank">
+                                        <Link to={"/article/"+v.articleId} >
                                             <img className="small-slider-img"
                                                  src={v.avatar} alt=""/>
                                             <i className="mask"></i>
@@ -48,7 +48,7 @@ class Banner2 extends Component{
 
                                         :
 
-                                        <a href={v.articleUrl} target="_blank">
+                                        <a href={v.articleUrl} >
                                             <img className="small-slider-img"
                                                  src={v.avatar} alt=""/>
                                             <i className="mask"></i>

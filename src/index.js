@@ -15,6 +15,7 @@ import About from './componetns/about/index';
 import NotFound from './componetns/error/notFound';
 import Create from './componetns/article/create7';
 import Settings from './componetns/user/settings';
+import Contact from './componetns/contact';
 
 ReactDOM.render(
     <Provider store={store}>
@@ -28,6 +29,7 @@ ReactDOM.render(
                 <DefaultLayout path='/user/:username' component={UserDetailHome} />
                 <DefaultLayout path='/settings' component={Settings} />
                 <DefaultLayout path='/about' component={About} />
+                <DefaultLayout path='/contact' component={Contact} />
                 <DefaultLayout path='/create' component={Create} />
                 <DefaultLayout component={NotFound} />
             </Switch>

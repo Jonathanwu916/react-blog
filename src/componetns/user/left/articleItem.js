@@ -26,11 +26,11 @@ class ArticleItem extends Component{
                                     <div className="media-left">
                                         {
                                             v.showContent ?
-                                                <Link to={"/article/"+v.articleId} target="_blank">
+                                                <Link to={"/article/"+v.articleId} >
                                                     <img src={v.avatar} className="avatar img-circle" alt=""/>
                                                 </Link>
                                                 :
-                                                <a href={v.articleUrl} target="_blank" onClick={this.handlerClickArticleId.bind(this,v.articleId)}>
+                                                <a href={v.articleUrl}  onClick={this.handlerClickArticleId.bind(this,v.articleId)}>
                                                     <img src={v.avatar} className="avatar img-circle" alt=""/>
                                                 </a>
                                         }
@@ -39,9 +39,9 @@ class ArticleItem extends Component{
                                         <div className="title">
                                             {
                                                 v.showContent ?
-                                                    <Link to={"/article/"+v.articleId} target="_blank">{v.title}</Link>
+                                                    <Link to={"/article/"+v.articleId} >{v.title}</Link>
                                                     :
-                                                    <a href={v.articleUrl} target="_blank" onClick={this.handlerClickArticleId.bind(this,v.articleId)}>{v.title}</a>
+                                                    <a href={v.articleUrl}  onClick={this.handlerClickArticleId.bind(this,v.articleId)}>{v.title}</a>
                                             }
                                         </div>
                                         {

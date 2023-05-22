@@ -50,7 +50,7 @@ class News extends Component{
                                                 <li className="article-item" key={i}>
                                                     {
                                                         v.showContent ?
-                                                            <Link to={"/article/"+v.articleId} target="_blank" className="news-link">
+                                                            <Link to={"/article/"+v.articleId}  className="news-link">
                                                                 <div className="module-pic news-pic">
                                                                     <img src={v.avatar} lazy="loaded" alt=""/>
                                                                 </div>
@@ -59,7 +59,7 @@ class News extends Component{
                                                                 </div>
                                                             </Link>
                                                             :
-                                                            <a href={v.articleUrl} target="_blank" className="news-link">
+                                                            <a href={v.articleUrl}  className="news-link">
                                                                 <div className="module-pic news-pic">
                                                                     <img src={v.avatar} lazy="loaded" alt=""/>
                                                                 </div>

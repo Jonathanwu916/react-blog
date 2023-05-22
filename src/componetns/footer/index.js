@@ -10,9 +10,7 @@ class Footer extends Component{
             <Footer style={{textAlign: 'center'}}>
                 <Link to="/about">About us</Link>
                 <span className="span-line">|</span>
-                <Link to="/about">Contact us</Link>
-                <span className="span-line">|</span>
-                <Link to="/about">Terms of condition</Link>
+                <Link to="/contact">Contact us</Link>
             </Footer>
         );
     }

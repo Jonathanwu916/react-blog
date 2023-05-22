@@ -11,7 +11,7 @@ class Images extends Component{
                         <div className="column-wrap"><span>Pics</span></div>
                         <ul className="module-content bui-box picture-list">
                             <li className="bui-left picture-item">
-                                <a href="/group/6605436900020847107/" target="_blank" className="link">
+                                <a href="/group/6605436900020847107/"  className="link">
                                     <div className="module-pic picture-img">
                                         <img alt="" src="//p99.pstatp.com/list/300x170/pgc-image/153794631464660ef2fae32" lazy="loaded"/>
                                     </div>
@@ -19,7 +19,7 @@ class Images extends Component{
                                 </a>
                             </li>
                             <li className="bui-left picture-item">
-                                <a href="/group/6605436900020847107/" target="_blank" className="link">
+                                <a href="/group/6605436900020847107/"  className="link">
                                     <div className="module-pic picture-img">
                                         <img alt="" src="//p99.pstatp.com/list/300x170/pgc-image/153794631464660ef2fae32" lazy="loaded"/>
                                     </div>
@@ -27,7 +27,7 @@ class Images extends Component{
                                 </a>
                             </li>
                             <li className="bui-left picture-item">
-                                <a href="/group/6605436900020847107/" target="_blank" className="link">
+                                <a href="/group/6605436900020847107/"  className="link">
                                     <div className="module-pic picture-img">
                                         <img alt="" src="//p99.pstatp.com/list/300x170/pgc-image/153794631464660ef2fae32" lazy="loaded"/>
                                     </div>
@@ -35,7 +35,7 @@ class Images extends Component{
                                 </a>
                             </li>
                             <li className="bui-left picture-item">
-                                <a href="/group/6605436900020847107/" target="_blank" className="link">
+                                <a href="/group/6605436900020847107/"  className="link">
                                     <div className="module-pic picture-img">
                                         <img alt="" src="//p99.pstatp.com/list/300x170/pgc-image/153794631464660ef2fae32" lazy="loaded"/>
                                     </div>

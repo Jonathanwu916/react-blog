@@ -12,8 +12,7 @@ class About extends Component{
                         <div className="column-wrap"><span>About</span></div>
                         <ul className="module-content about-list">
                             <li className="item"><Link to="/about">About us</Link></li>
-                            <li className="item"><Link to="/about">Contact us</Link></li>
-                            <li className="item"><Link to="/about">Terms of condition</Link></li>
+                            <li className="item"><Link to="/contact">Contact us</Link></li>
                         </ul>
                     </div>
                 </div>

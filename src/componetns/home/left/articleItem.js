@@ -84,7 +84,12 @@ class ArticleItem extends Component{
                                                         :
                                                         null
                                                 }
-                                                <Link to="#"><Icon type="like" /></Link>
+                                                {
+                                                   v.viewCount !=null  && v.author != 'None' ?
+                                                        <span>{v.viewCount}</span>
+                                                        :
+                                                        null
+                                                }
                                                 <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
                                                 <Link to={"/article/"+v.articleId} className="comment"><Icon type="message" /></Link>
                                                 <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>

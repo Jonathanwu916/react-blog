@@ -82,7 +82,7 @@ class ArticleDetail extends Component{
                                 {
                                     this.state.article.articleUrl != null ?
                                         <p className="ellipsis mt-10 mb-15">
-                                            Original Post: <a target="_blank" href={this.state.article.articleUrl}>{this.state.article.articleUrl}</a>
+                                            Original Post: <a  href={this.state.article.articleUrl}>{this.state.article.articleUrl}</a>
                                         </p>
                                         :
                                         null

@@ -44,7 +44,7 @@ class Banner3 extends Component{
                                 <div className="big-slider-item" key={i}>
                                     {
                                         v.showContent ?
-                                            <Link to={"/article/"+v.articleId} target="_blank">
+                                            <Link to={"/article/"+v.articleId} >
                                                 <img className="big-slider-img"
                                                      src={v.avatar} alt=""/>
                                                 <i className="mask"></i>
@@ -53,7 +53,7 @@ class Banner3 extends Component{
 
                                             :
 
-                                            <a href={v.articleUrl} target="_blank">
+                                            <a href={v.articleUrl} >
                                                 <img className="big-slider-img"
                                                      src={v.avatar} alt=""/>
                                                 <i className="mask"></i>

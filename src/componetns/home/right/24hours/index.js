@@ -51,7 +51,7 @@ class Hours24 extends Component{
                                                                     <Link alt={v.title}
                                                                           className="u-main-title home-daily__title js-open-modal"
                                                                           data-remote="true"
-                                                                          target="_blank"
+                                                                          
                                                                           to={"/article/"+v.articleId}>{v.title}
                                                                     </Link>
                                                                     :
@@ -59,7 +59,7 @@ class Hours24 extends Component{
                                                                        className="u-main-title home-daily__title js-open-modal"
                                                                        data-remote="true"
                                                                        href={v.articleUrl}
-                                                                       target="_blank">{v.title}
+                                                                       >{v.title}
                                                                     </a>
                                                             }
                                                             <div className="daily-inline__footer">

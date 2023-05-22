@@ -60,13 +60,13 @@ class AutoPlay extends Component{
                                 <BgElement key="bg" className="bg" style={{background: '#64CBCC',}}>
                                     {
                                         v.showContent ?
-                                            <Link to={"/article/"+v.articleId} target="_blank">
+                                            <Link to={"/article/"+v.articleId} >
                                                 <img src={v.avatar} alt="" style={{width:"100%",height:"100%"}}/>
                                             </Link>
 
                                             :
 
-                                            <a href={v.articleUrl} target="_blank">
+                                            <a href={v.articleUrl} >
                                                 <img src={v.avatar} alt="" style={{width:"100%",height:"100%"}}/>
                                             </a>
                                     }
