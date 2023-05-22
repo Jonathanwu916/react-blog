@@ -86,12 +86,10 @@ class ArticleItem extends Component{
                                                 }
                                                 {
                                                    v.viewCount !=null  && v.author != 'None' ?
-                                                        <span>{v.viewCount}</span>
+                                                        <span>{v.viewCount} view count</span>
                                                         :
                                                         null
                                                 }
-                                                <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                                                <Link to={"/article/"+v.articleId} className="comment"><Icon type="message" /></Link>
                                                 <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
                                                 <span>{moment(v.createDate).fromNow()}</span>
                                                 {
