@@ -41,11 +41,6 @@ class ArticleList extends Component{
                             ? <Loading />
                             : null
                     }
-                    {
-                        !this.props.state.index.hasMore && !this.props.state.index.loading
-                            ? <Alert className="load-more" message="No more data" type="error" />
-                            : null
-                    }
                 </div>
             </div>
         );

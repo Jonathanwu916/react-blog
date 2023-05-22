@@ -19,7 +19,6 @@ class UserDetailHome extends Component{
             <Item key={i} style={{float: "left"}}>{navData[v]}</Item>
         ))
         const avatar = this.props.state.user.user;
-        // console.log(avatar)
         return (
             <div className="content">
                 <Row>

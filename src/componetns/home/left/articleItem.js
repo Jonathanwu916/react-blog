@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {Link} from "react-router-dom";
 import {Icon} from 'antd';
 import moment from "moment";
-import 'moment/locale/zh-cn';
 import Axios from "../../../axios/axios";
 import {openNotificationWithIcon} from "../../notification";
 
@@ -21,7 +20,6 @@ class ArticleItem extends Component{
             <div>
                 {
                     this.props.article.map(function (v,i) {
-                        console.log(v, 'v......')
                         return (
                             <li className="article-item" key={i}>
                                 <div className="media article">

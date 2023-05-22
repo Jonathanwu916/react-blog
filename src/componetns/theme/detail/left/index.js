@@ -36,11 +36,6 @@ class ThemeDetailLeft extends Component{
                             ? <Loading />
                             : null
                     }
-                    {
-                        !this.props.state.theme.hasMore && !this.props.state.theme.loading
-                            ? <Alert className="load-more" message="No more data" type="error" />
-                            : null
-                    }
                 </div>
             </div>
         );

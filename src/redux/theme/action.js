@@ -30,7 +30,6 @@ export const themeLoadMore = (data) => {
 }
 
 function fetchData(url,themeName,pageNo,dispatch){
-    // console.log("fetchData---url : "+url+"?pageNo="+pageNo);
     Axios.get(url,{
         params: {
             themeName: themeName,
@@ -54,7 +53,6 @@ function fetchData(url,themeName,pageNo,dispatch){
 }
 
 function fetchMoreData(url,themeName,pageNo,dispatch){
-    // console.log("fetchMoreData---url : "+url+"?pageNo="+pageNo);
     Axios.get(url,{
         params: {
             themeName: themeName,

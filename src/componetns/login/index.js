@@ -16,7 +16,6 @@ class CollectionCreateForm  extends Component{
                 onOk={onCreate}
             >
                 <Form layout="vertical">
-                    <Alert message="Not open to register" type="error" />
                     <FormItem label="User Name">
                         {getFieldDecorator('username', {
                             rules: [{ required: true, message: 'Please enter user name' }],

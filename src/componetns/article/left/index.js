@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import moment from "moment";
-import 'moment/locale/zh-cn';
 
 import './index.css';
 import Axios from "../../../axios/axios";

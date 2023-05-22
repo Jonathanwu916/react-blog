@@ -75,22 +75,16 @@ class Create7 extends Component{
     }
 
     handleBlur = () => {
-        console.log('blur');
     }
 
     handleFocus = () => {
-        console.log('focus');
     }
 
     render() {
         const { getFieldDecorator } = this.props.form
-        console.log("get:"+this.props.form.getFieldValue('content'))
-        console.log(this.state.previewContent)
         const themes = this.state.themes.map((v,i) => {
             return (<Option value={v.themeName}>{v.themeName}</Option>)
         })
-        console.log(this.state.themes)
-        console.log(this.state.article)
         return (
             <div className="demo-container">
                 <Form onSubmit={this.handleSubmit}>
