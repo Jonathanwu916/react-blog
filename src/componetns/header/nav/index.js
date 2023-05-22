@@ -153,7 +153,7 @@ class Nav extends React.Component {
                 animation={{ x: -30, type: 'from', ease: 'easeOutQuad' }}
                 id={`${this.props.id}-logo`}
             >
-                <Link to="/"><h2>React Blog</h2></Link>
+                <Link to="/"><h2>Blog System</h2></Link>
             </TweenOne>
             <div className="header1-nav">
                 <Link to="/" style={{paddingRight: "20px"}}>Home</Link>
