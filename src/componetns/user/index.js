@@ -14,7 +14,7 @@ class UserDetailHome extends Component{
     }
 
     render() {
-        const navData = { menu0: '文章'};
+        const navData = { menu0: 'Articles'};
         const NavChannel = Object.keys(navData).map((v,i) => (
             <Item key={i} style={{float: "left"}}>{navData[v]}</Item>
         ))
